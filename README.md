@@ -217,6 +217,8 @@ Questions, problems and ideas: open an [issue](https://github.com/farhan6667/sfa
 or email nexaforge.services@gmail.com. When something fails during install, attach
 `/var/log/sfa-monitor-setup.log`. Security problems: see [SECURITY.md](SECURITY.md).
 
+If SFA Monitor saves you time, you can help keep it going. Hosting, tools, cloud credits and funding are all welcome, see the [sponsor page](https://github.com/farhan6667/farhan6667/blob/main/SPONSOR.md).
+
 ## License
 
 Free to use, all rights reserved. See [LICENSE.md](LICENSE.md).
