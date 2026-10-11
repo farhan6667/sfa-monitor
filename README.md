@@ -15,6 +15,12 @@ distribution by itself, installs what it needs and keeps itself up to date from 
 
 [Features](#features) • [Install](#install) • [Tour](#a-quick-tour) • [Updates](#updates) • [Uninstall](#uninstall) • [FAQ](#frequently-asked-questions)
 
+## Watch the intro
+
+https://github.com/user-attachments/assets/823123c0-691e-4ea9-ad30-fac95f1f3ef8
+
+A one minute tour in 1080p: the desktop widget, the task manager and End Task, every page of the app, the themes, the one-command install and signed updates. [Download the MP4](docs/video/sfa-monitor-intro.mp4).
+
 ## At a glance
 
 | | |
