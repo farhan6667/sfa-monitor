@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.1 (2026-10-13)
+
+Fix: the desktop widget no longer grows in memory over time.
+
+- The widget made a new text measurement structure on every redraw (twice a second) and Lua never
+  freed it, so a widget left running for days could reach several GB of RAM. It now makes one
+  when it starts and reuses it. Found on a machine where two widgets had grown to about 4 GB each
+  after five days.
+- Nothing else changed. Installed copies pick this up through the normal signed update.
+
 ## 1.0.0 (2026-10-09)
 
 First public release.
