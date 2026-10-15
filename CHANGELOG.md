@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.5.2 (2026-10-15)
+
+Security and stability release with four new features.
+
+- Security: install and update no longer write into users' home folders as root (a local user could use a Desktop symlink to take over a root file). The updater now checks the version inside the signed setup file. Killing a process checks its start time. The status file no longer lists names.
+- Memory: the widget leak fixed in 1.0.1 stays fixed, and the app's SSH alert list is now bounded.
+- Fixes: wrong rates for second adapters and disks, hanging container logs, a refresh error freezing the app, non-English labels breaking the widget, Nvidia and stuck network drives freezing it, a damaged history database crash loop, 24 hour journal reads every 15 seconds, doubled disk I/O on LVM and RAID, fake network spikes, false UDP port alerts, many core bars, leftovers after removal, and the wrong update repository in the Rocky, Alma and RHEL package.
+- New: desktop notification for critical alerts, process history on the charts, a Sensors page, CSV and PNG export and a PDF health report, and an optional alert webhook.
+- After installing, log out and back in once to join the new sfa-monitor group. Rocky, Alma and RHEL installs need one manual update.
+
 ## 1.0.1 (2026-10-13)
 
 Fix: the desktop widget no longer grows in memory over time.
