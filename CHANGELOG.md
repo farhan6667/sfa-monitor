@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.3 (2026-10-16)
+
+- New: a small "Support this project" card at the bottom of Settings. It opens the sponsor page in your browser only when you click it. No popup, no reminder, no network call from the app.
+- Changed: the fourth colour theme is now called Emerald.
+
 ## 1.5.2 (2026-10-15)
 
 Security and stability release with four new features.
